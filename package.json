@@ -1,5 +1,5 @@
 {
-  "name": "pdf-signature-reader",
+  "name": "pdf-lector-firmas",
   "version": "1.4.2",
   "description": "Verify the digital signature of the pdf",
   "main": "index.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yudayahya/pdf-signature-reader.git"
+    "url": "git+https://github.com/marioarnedo98/pdf-lector-firmas.git"
   },
   "dependencies": {
     "base64-js": "^1.5.1",

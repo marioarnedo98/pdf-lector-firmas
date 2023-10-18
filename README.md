@@ -5,17 +5,17 @@ The signed PDF file has the public certificate embedded in it, so all we need to
 ## Installation
 
 ```
-npm i pdf-signature-reader
+npm i pdf-lector-firmas
 ```
 
 ## Importing
 
 ```javascript
 // CommonJS require
-const verifyPDF = require('pdf-signature-reader');
+const verifyPDF = require('pdf-lector-firmas');
 
 // ES6 imports
-import verifyPDF from 'pdf-signature-reader';
+import verifyPDF from 'pdf-lector-firmas';
 ```
 
 ## Verifying
@@ -25,7 +25,7 @@ Verify the digital signature of the pdf and extract the certificates details
 ### Node.js
 
 ```javascript
-const verifyPDF = require('pdf-signature-reader');
+const verifyPDF = require('pdf-lector-firmas');
 const signedPdfBuffer = fs.readFileSync('yourPdf');
 
 const {
@@ -40,7 +40,7 @@ const {
 ### Browser
 
 ```javascript
-import verifyPDF from 'pdf-signature-reader';
+import verifyPDF from 'pdf-lector-firmas';
 
 const readFile = (e) => {
     const file = e.target.files[0]
@@ -64,9 +64,9 @@ const readFile = (e) => {
 You can get the details of the certificate chain by using the following api.
 
 ```javascript
-const { getCertificatesInfoFromPDF } = require('pdf-signature-reader');  // require
+const { getCertificatesInfoFromPDF } = require('pdf-lector-firmas');  // require
 
-import { getCertificatesInfoFromPDF } from 'pdf-signature-reader';  // ES6
+import { getCertificatesInfoFromPDF } from 'pdf-lector-firmas';  // ES6
 
 ```
 
