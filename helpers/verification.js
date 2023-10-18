@@ -1,4 +1,4 @@
-const tls = require('tls');
+const tls = require('node-tls');;
 const forge = require('node-forge');
 const rootCAs = require('./rootCAs');
 
