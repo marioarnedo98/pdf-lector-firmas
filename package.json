@@ -1,6 +1,6 @@
 {
   "name": "pdf-lector-firmas",
-  "version": "1.4.2",
+  "version": "1.5",
   "description": "Verify the digital signature of the pdf",
   "main": "index.js",
   "scripts": {
